@@ -62,5 +62,3 @@ void loop() {
     digitalWrite(yellow, LOW);
     }
 }
-
-mendeki beledi
