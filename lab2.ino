@@ -11,11 +11,17 @@ int centerMin = 490;
 
 
 void setup() {
-  
-   Serial.begin(9600);
-   pinMode(xPin, INPUT);
-   pinMode(yPin, INPUT);
-   
+  Serial.begin(9600);
+
+  pinMode(xPin, INPUT);
+  pinMode(yPin, INPUT);
+
+  pinMode(yellow, OUTPUT);
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+
+  pinMode(sw, INPUT);
 }
 
 void loop() {
